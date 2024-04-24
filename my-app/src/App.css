@@ -1,0 +1,60 @@
+body{
+  background-color: #F5F1E3;
+}
+
+.App {
+  text-align: center;
+  background: #F5F1E3;
+}
+
+.App h1 {
+  font-size: 6em;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; /* Adjust this value to move the title closer or farther from the input field */
+}
+
+.App form {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.App input {
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adjust this value to move the input field closer or farther from the title */
+}
+
+
+.App button {
+  margin-top: 20px;
+  height: 40px;
+  background-color: #1B9AAA;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.App button:hover {
+  color: #050505;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.App ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App li {
+  margin: 10px 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+}

@@ -2,6 +2,32 @@ body{
   background-color: #F5F1E3;
 }
 
+.clock {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+@keyframes strikeThrough {
+  0% {text-decoration-color: transparent;}
+  100% {text-decoration-color: black;}
+}
+
+li[style*="line-through"] {
+  animation: strikeThrough 1s linear;
+}
+
+@keyframes slam {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+.slam {
+  animation: slam 0.5s ease;
+}
+
 .App {
   text-align: center;
   background: #F5F1E3;
@@ -11,8 +37,7 @@ body{
   font-size: 6em;
   text-align: center;
   color: black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px; /* Adjust this value to move the title closer or farther from the input field */
+  margin-bottom: 20px;
 }
 
 .App form {
@@ -28,11 +53,11 @@ body{
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  margin-top: 20px; /* Adjust this value to move the input field closer or farther from the title */
+  margin-top: 20px;
 }
 
 
-.App button {
+.App #add-btn {
   margin-top: 20px;
   height: 40px;
   background-color: #1B9AAA;
@@ -40,6 +65,14 @@ body{
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.App #c_r_btn {
+  cursor:pointer;
+  background-color: #51B7C4;
+  color: white;
+  border-radius: 5px;
+  border:none;
 }
 
 .App button:hover {
@@ -55,6 +88,6 @@ body{
 
 .App li {
   margin: 10px 0;
-  background-color: #f2f2f2;
+  background-color: #F5F1E3;
   padding: 10px;
 }

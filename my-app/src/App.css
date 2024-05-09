@@ -2,12 +2,19 @@ body{
   background-color: #F5F1E3;
 }
 
-.clock {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px;
-  font-size: 1.2em;
+@keyframes rainbow {
+  0% { background-color: red; }
+  14% { background-color: orange; }
+  28% { background-color: yellow; }
+  42% { background-color: green; }
+  56% { background-color: blue; }
+  70% { background-color: indigo; }
+  84% { background-color: violet; }
+  100% { background-color: red; }
+}
+
+.rainbow-background {
+  animation: rainbow 2s linear infinite;
 }
 
 @keyframes strikeThrough {

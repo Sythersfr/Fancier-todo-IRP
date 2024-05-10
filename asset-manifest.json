@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Sythersfr/Fancier-todo-IRP/static/css/main.fe4ef0c6.css",
+    "main.js": "/Sythersfr/Fancier-todo-IRP/static/js/main.472a9048.js",
+    "static/js/453.ed3810f9.chunk.js": "/Sythersfr/Fancier-todo-IRP/static/js/453.ed3810f9.chunk.js",
+    "static/media/tenge-tenge.mp3": "/Sythersfr/Fancier-todo-IRP/static/media/tenge-tenge.ebfe7c7045944cc9ce25.mp3",
+    "static/media/sad.mp3": "/Sythersfr/Fancier-todo-IRP/static/media/sad.317ebb3276a5e0cfd08f.mp3",
+    "static/media/sus.mp3": "/Sythersfr/Fancier-todo-IRP/static/media/sus.bd668ce0a91d28b46a08.mp3",
+    "index.html": "/Sythersfr/Fancier-todo-IRP/index.html",
+    "main.fe4ef0c6.css.map": "/Sythersfr/Fancier-todo-IRP/static/css/main.fe4ef0c6.css.map",
+    "main.472a9048.js.map": "/Sythersfr/Fancier-todo-IRP/static/js/main.472a9048.js.map",
+    "453.ed3810f9.chunk.js.map": "/Sythersfr/Fancier-todo-IRP/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe4ef0c6.css",
+    "static/js/main.472a9048.js"
+  ]
+}
